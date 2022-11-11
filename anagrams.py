@@ -1,3 +1,7 @@
+# Algorithm for decide two strings are anagrams or not
+# The function reutrn with True if both of the strings
+# have same characters.
+
 import re
 
 def anagram(string_1, string_2):
