@@ -10,4 +10,13 @@ def reverseInt(myNum):
 
     return returnNum
 
-print(reverseInt(723419))
+def betterReverse(myNum):
+    num = str(myNum)
+
+    if num[0] == "-":
+        return int("-" + num[:0:-1])
+    else:
+        return int(num[::-1])
+
+print(reverseInt(-723419))
+print(betterReverse(-723419))
