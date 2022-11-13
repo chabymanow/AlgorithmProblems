@@ -24,6 +24,12 @@ Char counter in a string. Small algorithm to count characters in a string, write
 
 Wait an integer and returns the integer with the digits reversed. If the number entered was negative, the number returned will also be negative.
 
+**integerSum.py**
+
+Integer sum
+It takes a single integer as input and returns the sum of the digits.
+It will return with an error message if a non-integer is passed in.
+
 ## Sorting algorithms ##
 
 Examples the different types of sorting algorithms.
